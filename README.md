@@ -56,6 +56,11 @@ MIDDLEWARE = [
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOWS_CREDENTIALS = True
 
-## Step 7: Registration View
+## Step 7: React Setup
+
+npm create vite@latest frontend -- --template react
+npm install axios react-router-dom jwt-decode
+
+## Step 8: Axios Setup
 
 
